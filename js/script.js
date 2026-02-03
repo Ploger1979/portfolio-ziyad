@@ -125,7 +125,7 @@ const translations = {
         },
         objective: {
             title: "Profile Summary",
-            text: "Motivated and multilingual IT Support Technician (Fachinformatiker Systemintegration). Strong communication skills in German, English, French, and Arabic. Looking for new challenges in IT Support and System Administration."
+            text: "Seeking a full-time position as an IT System Integration Specialist to build and maintain reliable IT infrastructures. My goal is to deliver high-quality support and scalable system solutions within a professional team, ensuring seamless operations and efficient architecture."
         },
         contact: {
             title: "Get In Touch",
@@ -181,7 +181,7 @@ const translations = {
         },
         objective: {
             title: "Profil Zusammenfassung",
-            text: "Motivierter und mehrsprachiger Fachinformatiker für Systemintegration. Starke Kommunikationsfähigkeiten in Deutsch, Englisch, Französisch und Arabisch. Suche nach neuen Herausforderungen im IT-Support und in der Systemadministration."
+            text: "Ich suche eine Vollzeitstelle als Fachinformatiker für Systemintegration, um professionelle IT-Infrastrukturen zu betreuen und effiziente Systemlösungen zu implementieren. Mein Fokus liegt darauf, in einem dynamischen Team durch hochwertigen Support und saubere Administration einen reibungslosen IT-Betrieb sicherzustellen."
         },
         contact: {
             title: "Kontakt",
@@ -237,7 +237,7 @@ const translations = {
         },
         objective: {
             title: "ملخص الملف الشخصي",
-            text: "فني تكامل أنظمة (Fachinformatiker Systemintegration) طموح ومتعدد اللغات. أتمتع بمهارات تواصل قوية بالألمانية والإنجليزية والفرنسية والعربية. أبحث عن تحديات جديدة في مجال الدعم الفني وإدارة الأنظمة."
+            text: "أبحث عن وظيفة بدوام كامل كأخصائي تكامل أنظمة (Fachinformatiker Systemintegration)، للمساهمة في بناء وإدارة بنية تحتية تقنية قوية. هدفي هو تقديم حلول أنظمة فعالة ودعم فني عالي الجودة لضمان استقرار العمليات التقنية وكفاءتها."
         },
         contact: {
             title: "تواصل معي",
@@ -293,7 +293,7 @@ const translations = {
         },
         objective: {
             title: "Résumé du Profil",
-            text: "Spécialiste en intégration de systèmes (Fachinformatiker) motivé et multilingue. Fortes compétences en communication en allemand, anglais, français et arabe. À la recherche de nouveaux défis dans le support informatique et l'administration système."
+            text: "Je recherche un poste à temps plein en tant que spécialiste en intégration de systèmes pour mettre en œuvre des infrastructures IT fiables et performantes. Mon objectif est de fournir un support de qualité et d'assurer une administration système efficace au sein d'une équipe professionnelle."
         },
         contact: {
             title: "Contact",
