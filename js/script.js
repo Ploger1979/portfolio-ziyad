@@ -94,7 +94,7 @@ const translations = {
         },
         about: {
             title: "About Me",
-            p1: "I am a motivated IT Support Technician based in <strong>Mainz-Kastel, Germany</strong>. Currently completing my training as Fachinformatiker for System Integration at Qvest GmbH.",
+            p1: "I am a motivated IT Support Technician based in <strong>Mainz-Kastel, Germany</strong>. I have successfully completed my training as Fachinformatiker for System Integration at Qvest GmbH.",
             p2: "I have hands-on experience with network configuration (IP, DNS, VLAN), AV-over-IP systems, and troubleshooting. I speak <strong>German, English, French, and Arabic</strong> fluent/business level.",
             stats: {
                 languages: "Languages Spoken",
@@ -110,7 +110,7 @@ const translations = {
         },
         experience: {
             title: "Experience",
-            ongoing: "2021 - Present",
+            ongoing: "2021 - 2024",
             past: "Past",
             r1: {
                 title: "IT Support / System Integration",
@@ -125,7 +125,7 @@ const translations = {
         },
         objective: {
             title: "Profile Summary",
-            text: "Motivated and multilingual IT Support Technician completing training as Fachinformatiker for Systemintegration. Strong communication skills in German, English, French, and Arabic. Looking for new challenges in IT Support and System Administration."
+            text: "Motivated and multilingual IT Support Technician (Fachinformatiker Systemintegration). Strong communication skills in German, English, French, and Arabic. Looking for new challenges in IT Support and System Administration."
         },
         contact: {
             title: "Get In Touch",
@@ -150,7 +150,7 @@ const translations = {
         },
         about: {
             title: "Über Mich",
-            p1: "Ich bin ein motivierter IT-Support-Techniker aus <strong>Mainz-Kastel, Deutschland</strong>. Derzeit schließe ich meine Ausbildung zum Fachinformatiker für Systemintegration bei der Qvest GmbH ab.",
+            p1: "Ich bin ein motivierter IT-Support-Techniker aus <strong>Mainz-Kastel, Deutschland</strong>. Ich habe meine Ausbildung zum Fachinformatiker für Systemintegration bei der Qvest GmbH erfolgreich abgeschlossen.",
             p2: "Ich verfüge über praktische Erfahrung in der Netzwerkkonfiguration (IP, DNS, VLAN), AV-over-IP-Systemen und Troubleshooting. Ich spreche fließend <strong>Deutsch, Englisch, Französisch und Arabisch</strong>.",
             stats: {
                 languages: "Gesprochene Sprachen",
@@ -166,7 +166,7 @@ const translations = {
         },
         experience: {
             title: "Erfahrung",
-            ongoing: "2021 - Heute",
+            ongoing: "2021 - 2024",
             past: "Vergangenheit",
             r1: {
                 title: "IT-Support / Systemintegration",
@@ -181,7 +181,7 @@ const translations = {
         },
         objective: {
             title: "Profil Zusammenfassung",
-            text: "Motivierter und mehrsprachiger IT-Support-Techniker (i.A. Fachinformatiker Systemintegration). Starke Kommunikationsfähigkeiten in Deutsch, Englisch, Französisch und Arabisch. Suche nach neuen Herausforderungen im IT-Support und in der Systemadministration."
+            text: "Motivierter und mehrsprachiger Fachinformatiker für Systemintegration. Starke Kommunikationsfähigkeiten in Deutsch, Englisch, Französisch und Arabisch. Suche nach neuen Herausforderungen im IT-Support und in der Systemadministration."
         },
         contact: {
             title: "Kontakt",
@@ -206,7 +206,7 @@ const translations = {
         },
         about: {
             title: "نبذة عني",
-            p1: "أنا فني دعم تكنولوجيا معلومات مقيم في <strong>ماينز-كاستل، ألمانيا</strong>. أكمل حالياً تدريبي المهني (Ausbildung) كأخصائي في تكامل الأنظمة في شركة Qvest GmbH.",
+            p1: "أنا فني دعم تكنولوجيا معلومات مقيم في <strong>ماينز-كاستل، ألمانيا</strong>. أتممت بنجاح تدريبي المهني (Ausbildung) كأخصائي في تكامل الأنظمة في شركة Qvest GmbH.",
             p2: "لدي خبرة عملية في إعداد الشبكات (IP، DNS، VLAN)، وأنظمة AV-over-IP، وحل المشكلات التقنية. أتحدث <strong>الألمانية، الإنجليزية، الفرنسية، والعربية</strong> بطلاقة.",
             stats: {
                 languages: "لغات",
@@ -222,7 +222,7 @@ const translations = {
         },
         experience: {
             title: "الخبرة العملية",
-            ongoing: "2021 - حالياً",
+            ongoing: "2021 - 2024",
             past: "سابقاً",
             r1: {
                 title: "دعم فني / تكامل أنظمة",
@@ -237,7 +237,7 @@ const translations = {
         },
         objective: {
             title: "ملخص الملف الشخصي",
-            text: "فني دعم تكنولوجيا معلومات طموح ومتعدد اللغات يكمل تدريبه كأخصائي تكامل أنظمة. أتمتع بمهارات تواصل قوية بالألمانية والإنجليزية والفرنسية والعربية. أبحث عن تحديات جديدة في مجال الدعم الفني وإدارة الأنظمة."
+            text: "فني تكامل أنظمة (Fachinformatiker Systemintegration) طموح ومتعدد اللغات. أتمتع بمهارات تواصل قوية بالألمانية والإنجليزية والفرنسية والعربية. أبحث عن تحديات جديدة في مجال الدعم الفني وإدارة الأنظمة."
         },
         contact: {
             title: "تواصل معي",
@@ -262,7 +262,7 @@ const translations = {
         },
         about: {
             title: "À propos de moi",
-            p1: "Je suis un technicien de support informatique motivé basé à <strong>Mayence-Kastel, Allemagne</strong>. Je termine actuellement ma formation de Fachinformatiker pour l'intégration de systèmes chez Qvest GmbH.",
+            p1: "Je suis un technicien de support informatique motivé basé à <strong>Mayence-Kastel, Allemagne</strong>. J'ai terminé avec succès ma formation de Fachinformatiker pour l'intégration de systèmes chez Qvest GmbH.",
             p2: "J'ai une expérience pratique de la configuration réseau (IP, DNS, VLAN), des systèmes AV sur IP et du dépannage. Je parle couramment <strong>l'allemand, l'anglais, le français et l'arabe</strong>.",
             stats: {
                 languages: "Langues parlées",
@@ -278,7 +278,7 @@ const translations = {
         },
         experience: {
             title: "Expérience",
-            ongoing: "2021 - Présent",
+            ongoing: "2021 - 2024",
             past: "Passé",
             r1: {
                 title: "Support IT / Intégration Système",
@@ -293,7 +293,7 @@ const translations = {
         },
         objective: {
             title: "Résumé du Profil",
-            text: "Technicien de support informatique motivé et multilingue terminant sa formation de Fachinformatiker pour l'intégration de systèmes. Fortes compétences en communication en allemand, anglais, français et arabe. À la recherche de nouveaux défis dans le support informatique et l'administration système."
+            text: "Spécialiste en intégration de systèmes (Fachinformatiker) motivé et multilingue. Fortes compétences en communication en allemand, anglais, français et arabe. À la recherche de nouveaux défis dans le support informatique et l'administration système."
         },
         contact: {
             title: "Contact",
