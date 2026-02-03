@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziyad Karzazi | Fachinformatiker Systemintegration</title>
+    <meta name="description"
+        content="Ziyad Karzazi - Fachinformatiker für Systemintegration. IT Support, Network Configuration, and System Administration based in Mainz-Kastel, Germany.">
+
+    <!-- Favicon & Open Graph -->
+    <link rel="icon" type="image/png" href="images/logo-dark.png?v=3">
+    <meta property="og:image" content="images/logo-dark.png?v=3">
+    <meta property="og:title" content="Ziyad Karzazi | Fachinformatiker Systemintegration">
+    <meta property="og:description" content="IT Support, Network Configuration, and System Administration portfolio.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body class="dark-mode">
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#hero" class="logo">
+                <img src="images/logo-dark.png" alt="Ziyad Logo">
+            </a>
+            <div class="nav-links">
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#skills" data-i18n="nav.skills">Skills</a>
+                <a href="#experience" data-i18n="nav.experience">Experience</a>
+                <a href="#contact" class="btn btn-primary" data-i18n="nav.contact">Contact Me</a>
+
+                <div class="lang-switch">
+                    <select id="language-selector" aria-label="Select Language">
+                        <option value="de">DE</option>
+                        <option value="en">EN</option>
+                        <option value="fr">FR</option>
+                        <option value="ar">AR</option>
+                    </select>
+                </div>
+
+                <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                    <ion-icon name="moon-outline" class="moon"></ion-icon>
+                    <ion-icon name="sunny-outline" class="sun"></ion-icon>
+                </button>
+            </div>
+            <button class="mobile-toggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg">
+            <img src="images/hero.png" alt="" aria-hidden="true">
+            <div class="overlay"></div>
+        </div>
+        <div class="container hero-content fade-up">
+            <p class="greeting" data-i18n="hero.greeting">Hello, I'm</p>
+            <h1 class="title">Ziyad Karzazi</h1>
+            <h2 class="subtitle" data-i18n="hero.subtitle">Fachinformatiker Systemintegration</h2>
+            <p class="tech-stack">Network / Support / Administration</p>
+            <p class="description" data-i18n="hero.description">
+                Motivated IT Specialist for System Integration. Experienced in network basics, AV systems, and
+                troubleshooting. Based in Mainz-Kastel, Germany.
+            </p>
+            <div class="cta-group">
+                <a href="#contact" class="btn btn-primary" data-i18n="hero.contact">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container mobile-reverse">
+            <div class="about-text fade-up">
+                <h2 class="section-title" data-i18n="about.title">About Me</h2>
+                <div class="text-content">
+                    <p data-i18n="about.p1">
+                        I am a motivated IT Support Technician based in <strong>Mainz-Kastel, Germany</strong>.
+                        Currently completing my training as Fachinformatiker for System Integration at Qvest GmbH.
+                    </p>
+                    <p data-i18n="about.p2">
+                        I have hands-on experience with network configuration (IP, DNS, VLAN), AV-over-IP systems, and
+                        troubleshooting.
+                        I speak <strong>German, English, French, and Arabic</strong> fluent/business level.
+                    </p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label" data-i18n="about.stats.languages">Languages Spoken</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label" data-i18n="about.stats.experience">Years Experience</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image fade-up">
+                <div class="image-wrapper">
+                    <img src="images/ziyad-profile.png" alt="Ziyad Karzazi" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+        <div class="container">
+            <h2 class="section-title fade-up" data-i18n="skills.title">Technical Skills</h2>
+            <div class="skills-grid">
+                <!-- Networking -->
+                <div class="skill-card fade-up">
+                    <div class="icon-box">
+                        <ion-icon name="wifi-outline"></ion-icon>
+                    </div>
+                    <h3 data-i18n="skills.networking">Networking</h3>
+                    <ul class="skill-list">
+                        <li>IP / Subnetting</li>
+                        <li>DNS / DHCP</li>
+                        <li>VLAN Basics</li>
+                        <li>VPN Troubleshooting</li>
+                    </ul>
+                </div>
+
+                <!-- Systems -->
+                <div class="skill-card fade-up">
+                    <div class="icon-box">
+                        <ion-icon name="desktop-outline"></ion-icon>
+                    </div>
+                    <h3 data-i18n="skills.systems">Systems</h3>
+                    <ul class="skill-list">
+                        <li>Windows / Microsoft 365</li>
+                        <li>Active Directory</li>
+                        <li>Ticketing Systems</li>
+                        <li>ServiceNow</li>
+                    </ul>
+                </div>
+
+                <!-- AV Technology -->
+                <div class="skill-card fade-up">
+                    <div class="icon-box">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+                    </div>
+                    <h3 data-i18n="skills.av">AV Technology</h3>
+                    <ul class="skill-list">
+                        <li>Display Systems</li>
+                        <li>Netgear AV</li>
+                        <li>Crestron / DM-NVX</li>
+                        <li>AV-over-IP</li>
+                    </ul>
+                </div>
+
+                <!-- Languages -->
+                <div class="skill-card fade-up">
+                    <div class="icon-box">
+                        <ion-icon name="chatbubbles-outline"></ion-icon>
+                    </div>
+                    <h3 data-i18n="skills.languages">Languages</h3>
+                    <ul class="skill-list">
+                        <li>German (B2)</li>
+                        <li>English (B2)</li>
+                        <li>French (C1)</li>
+                        <li>Arabic (Native)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
+        <div class="container">
+            <h2 class="section-title fade-up" data-i18n="experience.title">Experience</h2>
+            <div class="timeline">
+
+                <!-- Role 1 -->
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-i18n="experience.r1.title">IT Support / System Integration</h3>
+                            <span class="time" data-i18n="experience.ongoing">2021 - Present</span>
+                        </div>
+                        <span class="company" data-i18n="experience.r1.company">Qvest GmbH - Ausbildung</span>
+                        <ul data-i18n="experience.r1.desc">
+                            <li>Installation and assembly of professional display systems.</li>
+                            <li>Network configuration (IP, DHCP, DNS, VLAN basics).</li>
+                            <li>Troubleshooting hardware and software issues.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Role 2 -->
+                <div class="timeline-item fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3 data-i18n="experience.r2.title">Call Center Agent</h3>
+                            <span class="time" data-i18n="experience.past">Past</span>
+                        </div>
+                        <span class="company" data-i18n="experience.r2.company">Morocco</span>
+                        <ul data-i18n="experience.r2.desc">
+                            <li>Customer support and communication in multiple languages.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Career Objective -->
+    <section class="section objective">
+        <div class="container">
+            <div class="objective-card fade-up">
+                <h2 data-i18n="objective.title">Profile Summary</h2>
+                <p data-i18n="objective.text">
+                    Motivated and multilingual IT Support Technician completing training as Fachinformatiker for
+                    Systemintegration.
+                    Strong communication skills in German, English, French, and Arabic.
+                    Looking for new challenges in IT Support and System Administration.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <h2 class="section-title fade-up" data-i18n="contact.title">Get In Touch</h2>
+            <div class="contact-wrapper fade-up">
+                <div class="contact-info">
+                    <h3 data-i18n="contact.subtitle">Let's connect.</h3>
+                    <p data-i18n="contact.desc">Feel free to reach out via WhatsApp or LinkedIn.</p>
+                    <div class="contact-methods">
+                        <a href="mailto:Ziyadkarzazi9@gmail.com" class="method">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <span>Ziyadkarzazi9@gmail.com</span>
+                        </a>
+                        <a href="https://wa.me/491772255403" target="_blank" class="method">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                            <span>WhatsApp (+49 177 2255403)</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/ziyad-karzazi-5958a0222" target="_blank" class="method">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                            <span>LinkedIn</span>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form" action="#" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label for="name" data-i18n="contact.form.name">Name</label>
+                        <input type="text" id="name" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-i18n="contact.form.email">Email</label>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-i18n="contact.form.message">Message</label>
+                        <textarea id="message" rows="5" placeholder="..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-i18n="contact.form.send">Send Message</button>
+                    <!-- Note: This is a frontend-only form. -->
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Ziyad Karzazi. All rights reserved.</p>
+                <a href="#hero" class="back-to-top" data-i18n="footer.back">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
