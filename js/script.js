@@ -218,7 +218,7 @@ const translations = {
             networking: "الشبكات",
             systems: "الأنظمة والإدارة",
             av: "تكنولوجيا الصوت/الفيديو",
-            languages: "اللوغات"
+            languages: "اللغات"
         },
         experience: {
             title: "الخبرة العملية",
